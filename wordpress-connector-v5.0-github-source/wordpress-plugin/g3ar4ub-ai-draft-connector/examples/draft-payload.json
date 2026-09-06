@@ -1,0 +1,75 @@
+{
+  "external_id": "g3ar4ub-example-guide-001",
+  "title": "Example G3AR4UB Guide",
+  "slug": "example-g3ar4ub-guide",
+  "content_html": "<article class=\"g3ai-article g3ai-site-g3ar4ub\"><header class=\"g3ai-hero\"><span class=\"g3ai-eyebrow\">G3AR4UB Guide</span><h1>Example G3AR4UB Guide</h1><p class=\"g3ai-lead\">A concise introduction.</p></header><nav class=\"g3ai-toc\" aria-label=\"Table of contents\"><ol><li><a href=\"#overview\">Overview</a></li></ol></nav><section id=\"overview\" class=\"g3ai-section\"><h2>Overview</h2><p>Short context paragraph.</p><ul class=\"g3ai-checklist\"><li>One complete idea.</li><li>One complete idea.</li></ul></section></article>",
+  "excerpt": "A concise editorial summary.",
+  "categories": [1],
+  "tags": [],
+  "featured_media": 123,
+  "seo": {
+    "seo_title": "Example G3AR4UB Guide",
+    "meta_description": "A concise example description for the G3AR4UB guide.",
+    "focus_keyword": "example g3ar4ub guide",
+    "social": {
+      "facebook_title": "Example G3AR4UB Guide",
+      "facebook_description": "A concise example description for the G3AR4UB guide.",
+      "facebook_image": "https://g3ar4ub.com/wp-content/uploads/example-g3ar4ub-guide.webp",
+      "twitter_title": "Example G3AR4UB Guide",
+      "twitter_description": "A concise example description for the G3AR4UB guide.",
+      "twitter_image": "https://g3ar4ub.com/wp-content/uploads/example-g3ar4ub-guide.webp"
+    }
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://g3ar4ub.com/#organization",
+        "name": "G3AR4UB",
+        "url": "https://g3ar4ub.com/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://g3ar4ub.com/#website",
+        "url": "https://g3ar4ub.com/",
+        "name": "G3AR4UB",
+        "publisher": { "@id": "https://g3ar4ub.com/#organization" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://g3ar4ub.com/example-g3ar4ub-guide/#webpage",
+        "url": "https://g3ar4ub.com/example-g3ar4ub-guide/",
+        "name": "Example G3AR4UB Guide",
+        "description": "A concise example description for the G3AR4UB guide.",
+        "isPartOf": { "@id": "https://g3ar4ub.com/#website" },
+        "breadcrumb": { "@id": "https://g3ar4ub.com/example-g3ar4ub-guide/#breadcrumb" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://g3ar4ub.com/example-g3ar4ub-guide/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://g3ar4ub.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Example G3AR4UB Guide", "item": "https://g3ar4ub.com/example-g3ar4ub-guide/" }
+        ]
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://g3ar4ub.com/example-g3ar4ub-guide/#article",
+        "url": "https://g3ar4ub.com/example-g3ar4ub-guide/",
+        "headline": "Example G3AR4UB Guide",
+        "description": "A concise example description for the G3AR4UB guide.",
+        "image": "https://g3ar4ub.com/wp-content/uploads/example-g3ar4ub-guide.webp",
+        "author": { "@id": "https://g3ar4ub.com/#organization" },
+        "publisher": { "@id": "https://g3ar4ub.com/#organization" },
+        "mainEntityOfPage": { "@id": "https://g3ar4ub.com/example-g3ar4ub-guide/#webpage" },
+        "isPartOf": { "@id": "https://g3ar4ub.com/#website" },
+        "datePublished": "2026-07-21T09:00:00+07:00",
+        "dateModified": "2026-07-21T09:00:00+07:00",
+        "inLanguage": "en-US"
+      }
+    ]
+  }
+}
